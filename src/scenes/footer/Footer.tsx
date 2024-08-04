@@ -1,5 +1,3 @@
-import Logo from '@/assets/Logo.png'
-
 type Props = {}
 
 function Footer({}: Props) {
@@ -7,7 +5,7 @@ function Footer({}: Props) {
     <footer className='bg-primary-100 py-16'>
         <div className='justify-content mx-auto w-5/6 gap-16 md:flex'>
             <div className='mt-16 basis-1/2 md:mt-0'>
-                <img src={Logo} alt="logo" />
+                <img src="/assets/Logo.png" alt="logo" />
                 <p className='my-5'>
                     Curabitur semper turpis nibh, eget imperdiet leo ullamcorper quis. Aliquam vestibulum lobortis ex quis varius. Vestibulum ac mauris tincidunt, eleifend metus eget, luctus nulla. Sed cursus ullamcorper arcu, non maximus dui commodo sed. Sed a rhoncus leo, eu euismod purus. Fusce condimentum in mi eu fringilla. Pellentesque ornare non nisi ut mattis. Ut suscipit, nunc at dictum pharetra, nisl odio dignissim odio, a tincidunt eros orci non lacus.
                 </p>

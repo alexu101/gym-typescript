@@ -1,11 +1,6 @@
 import {SelectedPage} from '@/shared/types'
 import useMediaQuery from '@/hooks/useMediaQueries'
 import ActionButton from '@/shared/ActionButton'
-import HomePageText from "@/assets/HomePageText.png"
-import HomePageGraphic from "@/assets/HomePageGraphic.png"
-import SponsorRedbull from "@/assets/SponsorRedbull.png"
-import SponsorForbes from "@/assets/SponsorForbes.png"
-import SponsorFortune from "@/assets/SponsorFortune.png"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { motion } from 'framer-motion'
 
@@ -35,7 +30,7 @@ function Home({setSelectedPage}: Props) {
                 }}>
                     <div className='relative'>
                         <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
-                            <img alt="home-page-text" src={HomePageText}/>
+                            <img alt="home-page-text" src="/assets/HomePageText.png"/>
                         </div>
                     </div>
 
@@ -65,7 +60,7 @@ function Home({setSelectedPage}: Props) {
             {/* IMAGE */}
             <div className='flex basis-3/5 justify-center md:z-10 md:ml-40 md-mt-16'
             >
-                <img alt="home-page-graphic" src={HomePageGraphic}/>
+                <img alt="home-page-graphic" src="assets/HomePageGraphic.png"/>
             </div>
         </motion.div>
 
@@ -74,9 +69,9 @@ function Home({setSelectedPage}: Props) {
             <div className='w-full bg-primary-100 py-5' >
                 <div className='mx-auto w-5/6 flex items-center'>
                     <div className='flex w-3/5 items-center justify-between gap-8'>
-                        <img src={SponsorRedbull} alt="redbull-sponsor" />
-                        <img src={SponsorForbes} alt="forbes-sponsor" />
-                        <img src={SponsorFortune} alt="fortune-sponsor" />
+                        <img src="assets/SponsorRedBull.png" alt="redbull-sponsor" />
+                        <img src="assets/SponsorForbes.png" alt="forbes-sponsor" />
+                        <img src="assets/SponsorFortune.png" alt="fortune-sponsor" />
                     </div>
                 </div>
             </div>

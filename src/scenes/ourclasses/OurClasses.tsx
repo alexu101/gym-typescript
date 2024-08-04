@@ -1,10 +1,4 @@
 import { SelectedPage, ClassType } from '@/shared/types'
-import image1 from "@/assets/image1.png"
-import image2 from "@/assets/image2.png"
-import image3 from "@/assets/image3.png"
-import image4 from "@/assets/image4.png"
-import image5 from "@/assets/image5.png"
-import image6 from "@/assets/image6.png"
 import { motion } from 'framer-motion'
 import HText from '@/shared/HText'
 import OurClass from './OurClass'
@@ -13,30 +7,30 @@ const ourClasses: Array<ClassType> = [
     {
         name: "Weight Training Classes",
         description: "Nunc convallis quis nisl a varius. Donec id justo elit. Curabitur porta viverra lectus, in eleifend justo dictum in",
-        image: image1
+        image: "assets/image1.png"
     },
     {
         name: "Sport Classes",
-        image: image2
+        image: "assets/image2.png"
     },
     {
         name: "Yoga Classes",
-        image: image3
+        image: "assets/image3.png"
     },
     {
         name: "Ab Core Classes",
         description: "Nunc convallis quis nisl a varius. Donec id justo elit. Curabitur porta viverra lectus, in eleifend justo dictum in",
-        image: image4
+        image: "assets/image4.png"
     },
     {
         name: "Adventure Classes",
         description: "Nunc convallis quis nisl a varius. Donec id justo elit. Curabitur porta viverra lectus, in eleifend justo dictum in",
-        image: image5
+        image: "assets/image5.png"
     },
     {
         name: "Training Classes",
         description: "Nunc convallis quis nisl a varius. Donec id justo elit. Curabitur porta viverra lectus, in eleifend justo dictum in",
-        image: image6
+        image: "assets/image6.png"
     },
 ]
 

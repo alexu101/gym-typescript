@@ -5,7 +5,6 @@ import HText from '@/shared/HText'
 import { BenefitType } from '@/shared/types'
 import Benefit from './Benefit'
 import ActionButton from '@/shared/ActionButton'
-import BenefitsPageGraphic from '@/assets/BenefitsPageGraphic.png'
 
 const benefits: Array<BenefitType> = [
   {
@@ -81,7 +80,7 @@ function Benefits({setSelectedPage}: Props) {
           <img 
             className='mx-auto'
             alt='benefits-page-graphic'
-            src={BenefitsPageGraphic}
+            src="/assets/BenefitsPageGraphic.png"
           />
           {/* DESCRIPTION */}
           <div>
